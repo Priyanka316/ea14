@@ -1,0 +1,37 @@
+h2{
+    color: #da0707;
+}
+.class{
+    color: red;
+    font-style: italic;
+    font-size: 18px;
+}
+ol li{
+    color: brown;
+}
+.class1{
+    text-decoration-line:line-through;
+    color: darkred;
+}
+.class2{
+    background-color: yellow;
+}
+#class3{
+    font-style: italic;
+    text-decoration: underline;
+    columns: darkred;
+}
+ul li{
+    color: darkred;
+    letter-spacing: 4px;
+}
+p{
+    font-size: 14px;
+    color: darkred;
+}
+.class3{
+    color: darkred;
+    text-decoration-line: underline;
+    background-color: yellow;
+    font-style: italic;
+}
