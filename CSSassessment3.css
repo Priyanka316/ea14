@@ -105,7 +105,7 @@
     left: 100px;
     position: fixed;
     top: 420px;
-    left: 550px;
+    left: 600px;
 }
 
 .class8{
@@ -161,8 +161,12 @@
 
 .float{
     float: right;
+    color: brown;
+    font-weight: bold;
 }
 
 .float1{
     padding: 20px;
+    color: brown;
+    font-weight: bold;
 }
