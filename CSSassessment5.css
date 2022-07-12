@@ -1,0 +1,195 @@
+body{
+    background-color: yellow;
+}
+
+.li{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.xyz{
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.class1{
+    background-color: rgb(243, 14, 243);
+    height: 100px;
+    width: 100px;
+    /* border: black 2px solid; */
+    margin: 20px;
+    animation: Prep;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes Prep{
+    from{
+        transform: skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+
+.class2{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation: Prepbytes;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes Prepbytes {
+    from{
+        transform: skewY(20deg)
+    }
+    to{
+        transform: skewY(-20deg);
+    }
+}
+
+.class3{
+    background-color:darkcyan ;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation: priya;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes priya {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(720deg);
+    }
+}
+
+.class4{
+    background-color: rgb(12, 135, 201);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation: piku;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes piku {
+    from{
+        transform: rotateX(0deg);
+    }
+
+    to{
+        transform: rotateX(50deg);
+    }
+}
+
+.class5{
+    background-color: rgb(121, 121, 217);
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 20px;
+    animation: pinku;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: right;
+}
+
+@keyframes pinku{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(50deg);
+    }
+}
+
+.class6{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 20px;
+    animation: riya;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes riya{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(180deg);
+    }
+}
+
+.gap{
+    display: grid;
+    margin-left: 100px;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.class7{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 1px solid;
+    transition-property: width;
+    transition-duration: 4s;
+    
+}
+
+.class7:hover {
+    width: 300px;
+}
+
+.class8{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 1px solid;
+    transition-property: all;
+    transition-duration: 4s;
+}
+
+.class8:hover{
+    height: 250px;
+    width: 250px;
+}
+
+.class9{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 1px solid;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+.class9:hover{
+    width: 300px; 
+}
+
+.back{
+    font-size: 25px;
+}
+
+.nxt{
+    font-size: 25px;
+}
