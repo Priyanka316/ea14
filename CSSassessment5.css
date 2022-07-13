@@ -100,7 +100,6 @@ body{
     background-color: rgb(121, 121, 217);
     height: 100px;
     width: 100px;
-    border: 2px solid;
     margin: 20px;
     animation: pinku;
     animation-iteration-count: infinite;
@@ -121,7 +120,6 @@ body{
     background-color: white;
     height: 100px;
     width: 100px;
-    border: 2px solid;
     margin: 20px;
     animation: riya;
     animation-iteration-count: infinite;
